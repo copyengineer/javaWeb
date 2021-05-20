@@ -1,0 +1,447 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,宋体;
+    font-size: 14px;
+    font-family: tahoma, arial, 宋体;
+    background-color: #F6F6F6;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+#content{
+    margin: 0px auto;
+    width: 960px;
+    height: 1136px;
+    position: relative;
+    
+
+}
+#content .left{
+    position: absolute;
+    width: 219px;
+    height: 869px;
+    top: 20px;
+
+}
+#content .right{
+    position: absolute; 
+    width: 670px;
+    height: 1136px;
+    padding-bottom: 100px;
+    background-color: #FFFFFF;
+    top: 20px;
+    left: 219px;
+    font-size: 14px;
+    color: #666;
+    
+}
+#content .left .bravelove{
+    width: 219px;
+    height: 354px;
+    background-image: url(./sjjy.img/y.png);
+    margin-top: 80px;
+}
+#content .left .ad{
+    width: 219px;
+    height: 365px;
+    background-image: url(./sjjy.img/img1.png);
+}
+#content .right h1{
+    color: #f3316b;
+    text-align: center;
+    font: 18px/53px 'Microsoft Yahei';
+}
+#content .right .r-h1-title{
+    color: #ff687b;
+    font-size: 12px;
+    height: 37px;
+    line-height: 37px;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: 0px 30px 0;
+}
+#content .right .sex{
+    padding-top: 20px;
+    line-height: 32px;
+    height: 32px;
+    font-size: 14px;
+    color: #666;
+}
+/* #content .right input{
+    margin-top: 10px;
+} */
+#content .right dd,dt{
+    float: left;
+}
+#content .right dt{
+    width: 85px;
+    text-align: right; 
+    line-height: 32px;
+}
+#content .right dl{
+    padding-top: 20px;
+    height: 32px;
+}
+#content .right .sex .sexchoice{
+    width: 327px;
+    height: 32px;
+    padding-left: 13px;
+}
+#nan{
+    
+    background-color: #f7f7f7;
+}
+#content .right .sex .nan,.nv{
+   
+    margin-right: 20px;
+    padding-left: 28px;
+    background: url(./sjjy.img/sex.jpg) no-repeat 10px 0px;
+    width: 14px;
+    height: 32px;
+}
+#content .right .change{
+    font-size: 12px;
+    color: #ababab;
+    line-height: 32px;
+}
+.right .birth .year{
+   
+   
+}
+#same{
+    background-image: url(./sjjy.img/reg_bg.jpg);
+    width: 86px;
+    height: 32px;
+    margin-right: 10px;
+}
+.right .birth #sc input{
+    width: 60px;
+    height: 28px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: transparent;
+   
+}
+#sc{
+    width: 327px;
+    height: 32px;
+    padding-left: 13px;
+    line-height: 32px;
+}
+.right .c .marr{
+    width: 28px;
+    height: 32px;
+    margin: 0px 35px 0px 10px;
+}
+.right .line{
+    width: 91%;
+    height: 20px;
+    margin: 0px auto;
+    border-bottom: 1px dashed #ddd;
+}
+.right .s1{
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: -9px;
+    width: 84px;
+    height: 42px;
+    background: url(./sjjy.img/img2.png) no-repeat;
+}
+.right .s2{
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: -9px;
+    width: 84px;
+    height: 42px;
+    background: url(./sjjy.img/img2.png) no-repeat -84px 0;
+}
+#china{
+    float: left;
+    height: 32px;
+    font-size: 12px;
+    line-height: 32px;
+    display: block;
+    color: #666;
+    padding: 0px 8px 0px 7px;
+    background: url("./sjjy.img/area-line.jpg") no-repeat right center;
+}
+#phonenumber{
+    width: 130px;
+    height: 30px;
+    padding-left: 5px;
+    font-size: 12px;
+    margin-top: 1px;
+    background: transparent;
+}
+#ear{
+    background: url("./sjjy.img/area-bg.jpg") no-repeat 0 0;
+    margin-left: 13px;
+    box-sizing: border-box;
+    width: 278px;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+    z-index: 333;
+}
+#aa{
+    display: block !important;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+    background: url("./sjjy.img/area-up.jpg") no-repeat 0 0;
+    cursor: pointer;
+}
+#c{
+    display: block;
+    width: 73px;
+    height: 30px;
+    font-size: 14px;
+    color: #4092BA;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #A5D1EA;
+    text-decoration: none;
+    float: right;
+    margin-right: 170px;
+    background: #D0F5fe;
+    -webkit-border-radius: 3px;
+}
+.right .myself{
+    width: 670px;
+    height: 181.6px;
+    padding-top: 20px;
+}
+.right .myself .zw{
+    width: 440px;
+    height: 181.6px;
+    padding-left: 13px;
+}
+.right .myself .zw li{
+    list-style: none;
+}
+.right .myself .zw li a{
+    display: block;
+    text-decoration: none;
+    width: 79px;
+    height: 29px;
+    font-size: 14px;
+    color: #666;
+    background: url(../i/intro1.png) no-repeat;
+    line-height: 29px;
+    text-align: center;
+}
+.right .myself .bf{
+    width: 418.4px;
+    height: 132px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px;
+}
+.right .myself .bf a{
+    display: block;
+    float: left;
+    padding: 0 10px;
+    color: white;
+    white-space: nowrap;
+    height: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+.right .myself .bf .t1{
+    width: 68px;
+    background-color: #da9ca4;
+}
+.right .myself .bf .t2{
+    width: 44px;
+    background-color: #24a5c9;
+}
+.right .myself .bf .t3{
+    width: 44px;
+    background-color: #b0915d;
+}
+.right .myself .bf .t4{
+    width: 44px;
+    background-color: #ce6e7b;
+}
+.right .myself .bf .t5{
+    width: 68px;
+    background-color: #24a5c9;
+}
+.right .myself .bf .t6{
+    width: 68px;
+    background-color: #b0915d;
+}
+.right .myself .bf .t7{
+    width: 44px;
+    background-color: #b0915d;
+}
+.right .finish{
+    padding-top: 23px;
+    padding-left: 98px;
+    width: 527px;
+    height: 49px;
+}
+.right .finish button{
+    background: url(./sjjy.img/sub-btn1.jpg) no-repeat;
+    width: 278px;
+    height: 49px;
+    outline: none;
+    border: none;
+}
+.right .last{
+    width: 527px;
+    height: 90px;
+    padding-left: 98px;
+    padding-top: 10px;
+}
+.right .last .p1{
+    width: 572px;
+    height: 14px;
+    padding-top: 13px;
+    font-size: 12px;
+color: #c7c7c7;
+}
+.right .last .p2{
+    width: 572px;
+    height: 20px;
+    padding-top: 13px;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #c7c7c7;
+}
+
+.sidenave{
+    width: 103px;
+    padding-left: 30px;
+    position: fixed;
+    right: 250px;
+    top: 250px;
+    line-height: 45px;
+    text-align: center;
+    background: url(./sjjy.img/hy.png);
+    font-size: 12px;
+    transition: height 1s;
+}
+.sidenave .d1{
+    width: 103px;
+    height: 45px;
+}
+.sidenave .d2{
+    width: 103px;
+    height: 18px;
+    padding-top: 10px;
+}
+.sidenave .d2 a{
+   color: #bdb9bd;
+   line-height: 18px;
+   display: block;
+   width: 103px;
+   height: 18px;
+}
+.sidenave .d3{
+    width: 92px;
+    padding: 18px 0 0 11px;
+    list-style: none;
+    overflow: hidden; 
+    transition: height 1s;
+}
+.sidenave .d3 li{
+    float: left;
+    margin: 0 8px 9px 0;
+}
+.sidenave .d3 li a{
+    display: block;
+    width: 21px;
+    height: 21px;
+}
+.sidenave .d3 .pt1{
+    background: url(./sjjy.img/icon1.png);
+    background-position: 0 0;
+
+}
+.sidenave .d3 .pt2{
+    background: url(./sjjy.img/icon1.png);
+    background-position: -29px 0;
+}
+.sidenave .d3 .pt3{
+    background: url(./sjjy.img/icon_wx.jpg) no-repeat;
+}
+.sidenave .d3 .pt4{
+    background: url(./sjjy.img/icon1.png);
+    background-position: -55px 0;
+
+}
+.sidenave .d3 .pt5{
+    background: url(./sjjy.img/icon1.png);
+    background-position: -28px -29px;
+}
+.sidenave .d3 .pt6{
+    background: url(./sjjy.img/icon1.png);
+    background-position: -55px -29px;
+}
+
+
+.sidenave  .pt7{
+    display: block;
+    width: 103px;
+    height: 15px;
+    background: url(./sjjy.img/slide-down.png) no-repeat center 4px;
+}
+
+#age{
+    width: 454px;
+    height: 175px;
+    padding: 15px 6px;
+    z-index: 222;
+    position: absolute;
+    top: 32px;
+    left: 0;
+    border: 1px solid #cadde2;
+    background-color: white;
+    font-size: 12px;
+    
+}
+#age a{
+    text-decoration: none;
+    float: left;
+padding: 0 6px;
+width: 25.6px;
+height: 25px;
+line-height: 25px;
+font-size: 12px;
+text-align: center;
+}
+#age a:hover{
+    background-color: #2ec2ed;
+color: white;
+border-radius: 2px;
+}
+#age span{
+    float: left;
+    padding: 0 6px;
+    /* display: block; */
+    font-weight: bold;
+    color: #666;
+    text-align: right;
+    width: 40px;
+    height: 25px;
+    padding: 0 6px;
+    text-align: right;
+    line-height: 25px;
+}

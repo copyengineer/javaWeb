@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;教材订购系统（jsp+servlet+mysql）&apos;" deleteContents="true" description="Delete resource &apos;教材订购系统（jsp+servlet+mysql）&apos;" element1="/教材订购系统（jsp+servlet+mysql）" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1598771954786"/>
+</session>
